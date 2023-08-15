@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+  <div class="tesla">
+    T.E.S.L.A
+  </div>
+  <div class="top2">
+    <div class="text">
+      Minimum number of currency notes
+    </div>
+    <form id='form' class="search" onsubmit="return false">
+      <img class="coin dan" src="gold_coin_new-removebg-preview.png">
+      <input autofocus class="search_bar" type="text" placeholder=" Enter Amount in rupee" id="inamount" required
+        onchange="handleSearchChange()">
+      <input type="image" class="button_arrow" src="right arrow.png" alt="enter" onclick="calculateNotes()" autocomplete="off">
+
+    </form>
+  </div>
+
+  <div class="upper">
+    <div class="empty">
+    </div>
+    <div class="curr">
+      Currency note
+    </div>
+    <div class="cou">
+      Count
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="ten">
+      <img class="coin" src="gold_coin_new-removebg-preview.png">
+    </div>
+    <div class="denom">
+      2000
+
+    </div>
+    <div class="count">
+      <p id="2000">0</p>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="ten">
+      <img class="coin" src="gold_coin_new-removebg-preview.png">
+    </div>
+    <div class="denom">
+      500
+
+    </div>
+    <div class="count">
+      <p id="500">0</p>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="ten">
+      <img class="coin" src="gold_coin_new-removebg-preview.png">
+    </div>
+    <div class="denom">
+      200
+
+    </div>
+    <div class="count">
+      <p id="200">0</p>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="ten">
+      <img class="coin" src="gold_coin_new-removebg-preview.png">
+    </div>
+    <div class="denom">
+      100
+
+    </div>
+    <div class="count">
+      <p id="100">0</p>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="ten">
+      <img class="coin" src="gold_coin_new-removebg-preview.png">
+    </div>
+    <div class="denom">
+      50
+
+    </div>
+    <div class="count">
+      <p id="50">0</p>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="ten">
+      <img class="coin" src="gold_coin_new-removebg-preview.png">
+    </div>
+    <div class="denom">
+      20
+
+    </div>
+    <div class="count">
+      <p id="20">0</p>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="ten">
+      <img class="coin" src="gold_coin_new-removebg-preview.png">
+    </div>
+    <div class="denom">
+      10
+
+    </div>
+    <div class="count">
+      <p id="10">0</p>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="ten">
+      <img class="coin" src="gold_coin_new-removebg-preview.png">
+    </div>
+    <div class="denom">
+      5
+
+    </div>
+    <div class="count">
+      <p id="5">0</p>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="ten">
+      <img class="coin" src="gold_coin_new-removebg-preview.png">
+    </div>
+    <div class="denom">
+      2
+
+    </div>
+    <div class="count">
+      <p id="2">0</p>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="ten">
+      <img class="coin" src="gold_coin_new-removebg-preview.png">
+    </div>
+    <div class="denom">
+      1
+
+    </div>
+    <div class="count">
+      <p id="1">0</p>
+    </div>
+  </div>
+
+  <div class="lower">
+    <div>Minimum Number Of Currency Notes : </div>
+    <div class="c">
+      <p id="sum">Count</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    Made with <span style="color: red;padding-left: 1vw;padding-right: 1vw; font-size: 3vw;">&#10084;</span> by RITU RAJ
+    as T.E.S.L.A
+    frontend assignment
+  </div>
+
+</body>
+
+</html>

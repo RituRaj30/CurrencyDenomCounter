@@ -1,0 +1,237 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #f1f8fe;
+  }
+  
+  .tesla {
+    font-family: "Arial";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3vw;
+    font-weight: bold;
+    color: #787dff;
+    background-color: rgb(0, 0, 0);
+    height: 5vw;
+    margin-bottom: 0px;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    z-index: 100;
+  }
+  
+  .top2 {
+    background-color: #dadbf1;
+    height: 50vh;
+  }
+  
+  .text {
+    font-style: Arial;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 3.7vw;
+    font-weight: 550;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 75px;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding-top: 55px;
+  }
+  
+  .search_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vw;
+    width: 38vw;
+    font-size: 1.3vw;
+    max-width: 600px;
+    box-shadow: 2px 2px 2px #b0b0b0;
+    border-radius: 4px;
+    border: solid black;
+    position: absolute;
+    padding-left: 7vw;
+  }
+  
+  
+  .button_arrow {
+    position: relative;
+    height: 3.6vw;
+    z-index: 2;
+    left: 16vw;
+    cursor: pointer;
+  }
+  
+  .button_arrow:hover {
+    opacity: 0.6;
+  }
+  
+  .button_arrow:active {
+    opacity: 0.3;
+  }
+  
+  .box {
+    background-color: white;
+    width: 60vw;
+    margin-top: 20px;
+    margin-right: 22vw;
+    margin-left: 20vw;
+    border: solid;
+    border-radius: 10px;
+    padding-top: 0px;
+    height: 4.8vw;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    border-color: lightgray;
+  }
+  
+  
+  .coin {
+    display: flex;
+    height: 3.7vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: darkgray;
+    padding-right: 1vw;
+    padding-left: 1.5vw;
+  }
+  
+  .denom {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex: 2;
+    font-weight: semi-bold;
+    font-size: 1.8vw;
+    font-style: Arial;
+    font-family: 'Signika Negative', sans-serif;
+    color: #5d5b5b;
+  }
+  
+  .count {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    flex: 1;
+    border-radius: 10px;
+    color: #787DFF;
+    font-size: 2vw;
+    font-style: Arial;
+    font-family: 'Signika Negative', sans-serif;
+  
+  }
+  
+  .upper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  
+  .curr {
+    display: flex;
+    flex: 1.6;
+    font-size: 2vw;
+    font-style: Arial;
+    font-family: 'Signika Negative', sans-serif;
+    color: gray;
+  }
+  
+  .cou {
+    display: flex;
+    flex: 1;
+    font-size: 2vw;
+    font-style: Arial;
+    font-family: 'Signika Negative', sans-serif;
+    color: gray;
+  }
+  
+  .empty {
+    display: flex;
+    width: 20vw;
+  }
+  
+  .lower {
+    display: flex;
+    font-style: Arial;
+    font-family: 'Signika Negative', sans-serif;
+    margin-top: 30px;
+    font-size: 1.7vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .footer {
+    background-color: black;
+    color: white;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    font-style: Arial;
+    font-family: 'Signika Negative', sans-serif;
+    height: 6vw;
+    text-align: center;
+    align-items: center;
+    font-size: 1.6vw;
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+  }
+  
+  .c {
+    color: #787DFF;
+  }
+  
+  
+  
+  .dan {
+    position: relative;
+    z-index: 2;
+    right: 18vw;
+  
+  }
+  
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  
+  .ten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  @media (max-width:400px) {
+    .top2 {
+      max-height: 200px;
+    }
+  
+    .search_bar {
+      max-width: 600px;
+    }
+  }
